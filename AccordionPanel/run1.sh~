@@ -1,0 +1,8 @@
+#! /bin/bash
+echo -----------------------------------------------------
+echo $JAVA_HOME
+echo -----------------------------------------------------
+wmctrl -r:ACTIVE:-N "Hello Terminal"
+cd /home/mhcrnl/Desktop/ProiecteJava/AccordionPanel/src/java/example
+javac /home/mhcrnl/Desktop/ProiecteJava/AccordionPanel/src/java/example/MainPanel.java
+java /home/mhcrnl/Desktop/ProiecteJava/AccordionPanel/src/java/example/MainPanel
